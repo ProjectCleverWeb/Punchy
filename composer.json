@@ -20,14 +20,16 @@
 		}
 	],
 	"require": {
-		"php": ">=5.4"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "~4.0"
+		"php": ">=5.4",
+		"filp/whoops": "~1.0",
+		"projectcleverweb/php-uri": "~1.0.0"
 	},
 	"autoload": {
 		"psr-4": {
 			"projectcleverweb\\punchy\\": "src/system"
 		}
+	},
+	"config": {
+		"vendor-dir": "src/system/vendor"
 	}
 }

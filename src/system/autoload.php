@@ -1,18 +1,10 @@
 <?php
 /**
- * Autoloader
- * 
- * Licensed under WTFPL, so have at it.
- * 
- * @author    Nicholas Jordon
- * @link      https://github.com/ProjectCleverWeb
- * @copyright 2014 Nicholas Jordon - All Rights Reserved
- * @version   1.0.0
- * @license   http://www.wtfpl.net/
+ * Autoloaders
  */
 
 /**
- * Simple PSR-4 autoloader
+ * Simple PSR-4 autoloader for Punchy
  * 
  * @codeCoverageIgnore
  */
@@ -30,3 +22,8 @@ spl_autoload_register(function ($class) {
 		require_once $file;
 	}
 });
+
+/**
+ * Composer Autoloader
+ */
+require_once(realpath(__DIR__.'/vendor/autoload.php'));

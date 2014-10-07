@@ -1,0 +1,112 @@
+[
+    {
+        "name": "projectcleverweb/php-uri",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ProjectCleverWeb/PHP-URI.git",
+            "reference": "74988d9c7b6939c28706edea11da9e627e859d4f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ProjectCleverWeb/PHP-URI/zipball/74988d9c7b6939c28706edea11da9e627e859d4f",
+            "reference": "74988d9c7b6939c28706edea11da9e627e859d4f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2014-08-06 05:02:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "uri.lib.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicholas Jordon",
+                "email": "projectcleverweb@gmail.com",
+                "homepage": "https://github.com/ProjectCleverWeb"
+            }
+        ],
+        "description": "A PHP library for working with URI's, that is designed around the URI standard. Requires PHP 5.4 or later. This library replaces and extends all of PHP's parse_url() features, and even has some handy aliases.",
+        "homepage": "https://github.com/ProjectCleverWeb/PHP-URI",
+        "keywords": [
+            "address",
+            "parse_url",
+            "uri",
+            "url",
+            "web"
+        ]
+    },
+    {
+        "name": "filp/whoops",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/filp/whoops.git",
+            "reference": "9f451fbc7b8cad5e71300672c340c28c6bec09ff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/9f451fbc7b8cad5e71300672c340c28c6bec09ff",
+            "reference": "9f451fbc7b8cad5e71300672c340c28c6bec09ff",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*"
+        },
+        "time": "2014-07-11 05:56:54",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Whoops": "src/"
+            },
+            "classmap": [
+                "src/deprecated"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Filipe Dobreira",
+                "homepage": "https://github.com/filp",
+                "role": "Developer"
+            }
+        ],
+        "description": "php error handling for cool kids",
+        "homepage": "https://github.com/filp/whoops",
+        "keywords": [
+            "error",
+            "exception",
+            "handling",
+            "library",
+            "silex-provider",
+            "whoops",
+            "zf2"
+        ]
+    }
+]

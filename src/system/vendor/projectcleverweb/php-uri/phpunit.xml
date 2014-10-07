@@ -1,0 +1,7 @@
+<phpunit bootstrap="uri.lib.php">
+	<testsuites>
+		<testsuite name="PHP URI">
+			<directory>tests</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
