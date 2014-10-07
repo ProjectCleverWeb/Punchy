@@ -1,6 +1,6 @@
 <?php
 /**
- * Autoloader for PHP URI Library
+ * Autoloader
  * 
  * Licensed under WTFPL, so have at it.
  * 
