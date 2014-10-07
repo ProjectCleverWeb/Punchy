@@ -1,4 +1,4 @@
 <?php
 
 // placeholder
-punchy::init();
+punchy::init(require_once(realpath(__DIR__.'/config.php')));
