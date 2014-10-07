@@ -1,0 +1,33 @@
+{
+	"name": "projectcleverweb/punchy",
+	"description": "A simple application to track time spent on jobs, tasks, projects, etc.",
+	"version": "1.0.0-dev",
+	"keywords": [
+		"timesheet",
+		"punch",
+		"clock",
+		"hours",
+		"application"
+	],
+	"homepage": "https://github.com/ProjectCleverWeb/Punchy",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nicholas Jordon",
+			"email": "projectcleverweb@gmail.com",
+			"homepage": "https://github.com/ProjectCleverWeb"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"projectcleverweb\\punchy\\": "src"
+		}
+	}
+}
