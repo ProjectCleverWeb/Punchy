@@ -8,7 +8,7 @@ class main {
 		error_reporting(E_ALL & ~E_CORE_WARNING);
 		self::init_error_handler();
 		
-		self::debug();
+		display::page();
 	}
 	
 	public static function init_error_handler() {
